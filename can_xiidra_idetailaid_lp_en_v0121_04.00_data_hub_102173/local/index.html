@@ -12,9 +12,10 @@
 
     <!-- CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../../can_xiidra_idetailaid_lp_en_v0121_00.00_home_page_102173/global/css/custom.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
-    <title>iDetail Aid | </title>
+    <title>iDetail Aid | Data hub</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -22,30 +23,75 @@
         <div class="col-md-12">
           <img src="img/background11.jpg" alt="background image" class="img-fluid"/>
         </div>
+        <div class="col-md-3">
+          <a href="../../can_xiidra_idetailaid_lp_en_v0121_04.03_data_symptoms1&2_102173/local/index.html"><img src="img/icons1.png" alt="study 1" class="img-fluid"></a>
+        </div>
+        <div class="col-md-3">
+          <a href="../../can_xiidra_idetailaid_lp_en_v0121_04.03_data_symptoms1&2_102173/local/index.html"><img src="img/icons2.png" alt="study 2" class="img-fluid"></a>
+        </div>
+        <div class="col-md-3">
+          <a href="../../can_xiidra_idetailaid_lp_en_v0121_04.01_data_symptoms3_102173/local/index.html"><img src="img/icons3.png" alt="study 3" class="img-fluid"></a>
+        </div>
+        <div class="col-md-3">
+          <a href="../../can_xiidra_idetailaid_lp_en_v0121_04.02_data_symptoms4_102173/local/index.html"><img src="img/icons4.png" alt="study 4" class="img-fluid"></a>
+        </div>
+
+        <div class="col-md-3 offset-md-1 mt-5">
+          <a href="../../can_xiidra_idetailaid_lp_en_v0121_04.01_data_symptoms3_102173/local/index.html" type="button" class="btn btn-outline-info btn-lg" style="border-color: white;">SYMPTOMS</a>
+        </div>
+        <div class="col-md-2 mt-5 remove-padding-left">
+          <a href="../../can_xiidra_idetailaid_lp_en_v0121_04.04_data_signs1_102173/local/index.html" type="button" class="btn btn-outline-info btn-lg" style="border-color: white;">SIGNS</a>
+        </div>
+        <div class="col-md-5 mt-5">
+          <a href="../../can_xiidra_idetailaid_lp_en_v0121_04.08_data_tolerability_102173/local/index.html" type="button" class="btn btn-outline-info btn-lg" style="border-color: white;">TOLERABILITY PROFILE</a>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <p>ICSS = Inferior Corneal Staining Score</p>
+        </div>
+      </div>
       </div>
     </div>
 
     <!-- Floating Reference Icon -->
-    <a href="#" class="float">
-      <!-- <i class="fa fa-envelope my-float"></i> -->
+    <a href="#" class="float" data-toggle="modal" data-target="#reference">
       <img src="img/search_reference_icon.png" alt="Reference icon" class="floating-icon"/>
     </a>
-    <div class="label-container">
-        <div class="label-text">References</div>
-        <i class="fa fa-play label-arrow"></i>
+
+    <!-- References Modal -->
+    <div class="modal fade" id="reference" tabindex="-1" aria-labelledby="reference" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">References</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ol>
+              <li>XIIDRA<sup>®</sup> Product Monograph. Novartis Pharmaceuticals Canada Inc. February 13, 2020.</li>
+              <li>Semba CP, <em>et al</em>. A phase 2 randomized, double-masked, placebo-controlled study of a novel integrin antagonist (SAR 1118) for the treatment of dry eye. <em>Am J Ophthalmol</em> 2012; 153(6): 1051-1060. </li>
+              <li>Sheppard JD, <em>et al.</em> Lifitegrast ophthalmic solution 5.0% for treatment of dry eye disease: Results of the OPUS-1 phase 3 study. <em>Ophthalmology</em> 2014; 121(2): 475-483. </li>
+              <li>Tauber J, <em>et al</em>. Lifitegrast ophthalmic solution 5.0% versus placebo for treatment of dry eye disease: Results of the randomized phase III OPUS-2 study. <em>Ophthalmology</em> 2015;122(12):2423-2431. </li>
+              <li>Holland EJ, <em>et al</em>. Lifitegrast for the Treatment of Dry Eye Disease: Results of a Phase III, Randomized, Double-Masked, Placebo-Controlled Trial (OPUS-3). <em>Ophthalmology</em> 2017;124(1):53-60. </li>
+            </ol>
+          </div>
+        </div>
+      </div>
     </div>
     
     <!-- Navigation bar -->
     <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark navbar-custom">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="../../can_xiidra_idetailaid_lp_en_v0121_00.00_home_page_102173/local/index.html"><img src="img/home_navbar_icon.png" alt="Home Icon" class="home-icon"></a>
-              </li>
+      <div class="container-fluid" style="padding-left: 0;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: -10px;">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../../can_xiidra_idetailaid_lp_en_v0121_00.00_home_page_102173/local/index.html"><img src="img/home_navbar_icon.png" alt="Home Icon" class="home-icon"></a>
+            </li>
               <li class="nav-item">
                 <a class="nav-link" href="../../can_xiidra_idetailaid_lp_en_v0121_01.00_about_diagnosis_102173/local/index.html">About DED</a>
               </li>
@@ -53,10 +99,10 @@
                 <a class="nav-link" href="../../can_xiidra_idetailaid_lp_en_v0121_02.00_moa_102173/local/index.html">MOA</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../../can_xiidra_idetailaid_lp_en_v0121_03.00_profiles_hub_102173/local/index.html">Patient Profile</a>
+                <a class="nav-link" href="../../can_xiidra_idetailaid_lp_en_v0121_03.00_profiles_hub_102173/local/index.html">Patient Profiles</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../../can_xiidra_idetailaid_lp_en_v0121_04.00_data_hub_102173/local/index.html">Xiidra Clinical Data</a>
+                <a class="nav-link active" href="../../can_xiidra_idetailaid_lp_en_v0121_04.00_data_hub_102173/local/index.html">Xiidra<sup>&#174;</sup>  Clinical Data</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../../can_xiidra_idetailaid_lp_en_v0121_05.00_administration_102173/local/index.html">Administration</a>
@@ -68,13 +114,15 @@
                 <a class="nav-link" href="../../can_xiidra_idetailaid_lp_en_v0121_07.00_summary_102173/local/index.html">Summary</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../../can_xiidra_idetailaid_lp_en_v0121_08.00_safety_information_102173/index.html">Safety Information</a>
+                <a class="nav-link" href="../../can_xiidra_idetailaid_lp_en_v0121_08.00_safety_information_102173/local/index.html">Safety Information</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+    
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
   </body>
 </html>

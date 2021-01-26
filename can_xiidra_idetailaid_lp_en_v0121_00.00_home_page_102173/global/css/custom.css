@@ -12,6 +12,8 @@ img {
 /** Navbar **/
 .navbar-custom {
   background-color: #65AFE0;
+  padding: 0 !important;
+  line-height: 2.5;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -22,13 +24,13 @@ img {
 
 @media only screen and (device-width: 768px) {
   .navbar-dark .navbar-nav .nav-link {
-    font-size: 0.99em;
+    font-size: 0.8em;
   }
 }
 
 @media only screen and (device-width: 1024px) {
   .navbar-dark .navbar-nav .nav-link {
-    font-size: 0.9em;
+    font-size: 0.89em;
   }
 }
 
@@ -46,6 +48,25 @@ img {
 
 .home-icon {
     width: 30px;
+}
+
+.nav-item-2 {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.nav-item-3 {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.nav-item-8 {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.nav-item-9 {
+  border-right: none !important;
 }
 
 /* navbar collapse 
@@ -125,14 +146,15 @@ a.float:hover + div.label-container{
 
 .btn-info {
   background-color: #322C87;
+  border-color: #322C87 !important;
   padding: 1.15rem 3rem;
   box-shadow: 2px 2px 5px #888888;
 }
 
 .btn-outline-info {
-  border-color: 1px solid #fff !important;
   border: 1px solid;
   box-shadow: 2px 2px 5px #888888;
+  color: #63b1e5;
 }
 
 .modal-close-btn {

@@ -18,7 +18,12 @@
     <title>iDetail Aid | MOA</title>
   </head>
   <body>
-    <a href="#" data-toggle="modal" data-target="#video"><img src="img/background4.jpg" alt="MOA" class="img-fluid"/></a>
+    <!-- <a href="#" data-toggle="modal" data-target="#video"><img src="img/background4.jpg" alt="MOA" class="img-fluid"/></a> -->
+
+    <img src="img/background4.jpg" usemap="#image-map" alt="MOA" class="img-fluid">
+    <map name="image-map">
+        <area data-toggle="modal" data-target="#video" target="" alt="video" title="video" href="#" coords="768,341,969,482" shape="rect">
+    </map>
 
     <!-- Video Modal -->
     <div class="modal fade" id="video" tabindex="-1" aria-labelledby="video" aria-hidden="true">
